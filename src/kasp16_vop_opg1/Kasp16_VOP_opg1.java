@@ -33,8 +33,6 @@ public class Kasp16_VOP_opg1 extends Application {
     public static void main(String[] args) {
         launch(args);
         
-        
-        
     }
     
 }
