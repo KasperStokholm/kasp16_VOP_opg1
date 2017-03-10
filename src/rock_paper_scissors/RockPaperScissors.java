@@ -46,15 +46,15 @@ public class RockPaperScissors {
     public void play(String playerHand){
               
         this.playerHand = playerHand;
-        this.opponentHand = HANDS[new Random().nextInt(HANDS.length-1)];
+        this.opponentHand = HANDS[new Random().nextInt(3)];
         
     }
     
     public String getWinner(){
         
-        String win = "You won this round!";
-        String noWin = "Your opponent won this round!";
-        String tie = "It was a tie!";
+        String win = "Du vandt denne runde!";
+        String noWin = "Din modstander vandt denne runde.";
+        String tie = "Det blev uafjort.";
         
         if(playerHand == opponentHand){
             return tie;

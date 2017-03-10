@@ -8,13 +8,14 @@
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kasp16_vop_opg1.FXMLDocumentController">
    <children>
       <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <tabs>
-          <Tab fx:id="cipher" text="Cipher">
+          <Tab text="Cipher">
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
@@ -34,9 +35,18 @@
                      </children></AnchorPane>
             </content>
           </Tab>
-          <Tab fx:id="rps" text="Rock, paper, scissors">
+          <Tab text="Rock, paper, scissors">
             <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="buttonRock" layoutX="61.0" layoutY="74.0" mnemonicParsing="false" onAction="#doRPS" text="Sten" />
+                        <Button fx:id="buttonScissor" layoutX="61.0" layoutY="161.0" mnemonicParsing="false" onAction="#doRPS" text="Saks" />
+                        <Button fx:id="buttonPaper" layoutX="61.0" layoutY="251.0" mnemonicParsing="false" onAction="#doRPS" text="Papir" />
+                        <ImageView fx:id="playerImage" fitHeight="150.0" fitWidth="200.0" layoutX="157.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fx:id="opponentImage" fitHeight="150.0" fitWidth="200.0" layoutX="400.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label fx:id="opponentChoice" layoutX="472.0" layoutY="268.0" prefHeight="17.0" prefWidth="63.0" />
+                        <Label fx:id="gameResult" layoutX="212.0" layoutY="308.0" prefHeight="17.0" prefWidth="291.0" />
+                     </children></AnchorPane>
             </content>
           </Tab>
         </tabs>
