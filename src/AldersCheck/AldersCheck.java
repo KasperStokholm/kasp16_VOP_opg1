@@ -18,6 +18,7 @@ public class AldersCheck {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Indtast din fødselsdag:");
         int age = sc.nextInt();
 
         for (int i = 0; i < 10; i++) {
@@ -27,12 +28,13 @@ public class AldersCheck {
             if (age < 21 && age < 18) {
                 System.out.println("Din alder, " + age + " er under 21 og også under 18");
             } else if (age < 21 && age > 18) {
-                System.out.println("Din alder, " + age + " er under 21 men over under 18");
+                System.out.println("Din alder, " + age + " er under 21 men over 18");
+            } else if (age == 21) {
+                System.out.println("Din alder, " + age + " er præcis 21");
             } else {
                 System.out.println("Din alder, " + age + " er over 21");
             }
             age++;
         }
-
     }
 }
