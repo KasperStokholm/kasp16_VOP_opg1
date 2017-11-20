@@ -1,0 +1,9 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="C:/Users/Kasper/Documents/Matematik RobTek/LyskrydsTA/Physical/Config1/X20CP1382/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="Program" Source="Program.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

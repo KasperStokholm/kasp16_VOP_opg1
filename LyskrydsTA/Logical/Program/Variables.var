@@ -1,0 +1,27 @@
+VAR
+	car_from_east : BOOL;
+	car_from_north : BOOL;
+	car_from_south : BOOL;
+	car_from_west : BOOL;
+	green_east_bool : BOOL;
+	green_north_bool : BOOL;
+	green_south_bool : BOOL;
+	green_west_bool : BOOL;
+	light_state_east : light_east;
+	light_state_north : light_north;
+	light_state_south : light_south;
+	light_state_west : light_west;
+	ry_east_bool : BOOL;
+	ry_west_bool : BOOL;
+	ry_south_bool : BOOL;
+	ry_north_bool : BOOL;
+	light_timer : TON;
+	red_east_bool : BOOL;
+	red_north_bool : BOOL;
+	red_south_bool : BOOL;
+	red_west_bool : BOOL;
+	yellow_east_bool : BOOL;
+	yellow_north_bool : BOOL;
+	yellow_south_bool : BOOL;
+	yellow_west_bool : BOOL;
+END_VAR

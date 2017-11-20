@@ -1,0 +1,24 @@
+
+
+Wed Nov 15 15:45:25 2017
+No ARsim registration found!
+  Bernecker & Rainer 
+
+
+
+Wed Nov 15 15:45:25 2017
+COMMAND_COLDSTART
+InstanceName : 01d35e205f6a1af0
+
+WorkingPath :
+C:\Users\Kasper\Documents\Matematik RobTek\LyskrydsTA\Temp\Simulation\Config1\X20CP1382\
+
+
+
+Wed Nov 15 15:45:25 2017
+COMMAND_COLDSTART
+Version : I4.33
+
+
+
+Fri Nov 17 12:08:13 2017

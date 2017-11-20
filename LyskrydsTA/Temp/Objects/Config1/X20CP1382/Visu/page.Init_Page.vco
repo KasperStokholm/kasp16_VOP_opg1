@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Layers">
+    <Folder Name="Init_PageDefault" TargetIndex="Source[local].Page[Init_Page].Layer[Default]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="Shape_1" ClsId="0x1001" Version="1" Type="CTRL" RefString="Source[local].Page[Init_Page].Layer[Default].Control[Shape_1]">
+            <UInt32 Name="Left">251</UInt32>
+            <UInt32 Name="Top">43</UInt32>
+            <UInt32 Name="Right">266</UInt32>
+            <UInt32 Name="Bottom">60</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001001].StyleClass[Shape]</Reference>
+            <UInt16 Name="StyleTableSize">9</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Shape">
+              <UInt16 Name="Offset">2</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Shape_2" ClsId="0x1001" Version="1" Type="CTRL" RefString="Source[local].Page[Init_Page].Layer[Default].Control[Shape_2]">
+            <UInt32 Name="Left">251</UInt32>
+            <UInt32 Name="Top">73</UInt32>
+            <UInt32 Name="Right">266</UInt32>
+            <UInt32 Name="Bottom">90</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001001].StyleClass[Shape]</Reference>
+            <UInt16 Name="StyleTableSize">9</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Shape">
+              <UInt16 Name="Offset">2</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Shape_3" ClsId="0x1001" Version="1" Type="CTRL" RefString="Source[local].Page[Init_Page].Layer[Default].Control[Shape_3]">
+            <UInt32 Name="Left">251</UInt32>
+            <UInt32 Name="Top">106</UInt32>
+            <UInt32 Name="Right">266</UInt32>
+            <UInt32 Name="Bottom">123</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001001].StyleClass[Shape]</Reference>
+            <UInt16 Name="StyleTableSize">9</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Shape">
+              <UInt16 Name="Offset">2</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Shape_4" ClsId="0x1001" Version="1" Type="CTRL" RefString="Source[local].Page[Init_Page].Layer[Default].Control[Shape_4]">
+            <UInt32 Name="Left">346</UInt32>
+            <UInt32 Name="Top">191</UInt32>
+            <UInt32 Name="Right">361</UInt32>
+            <UInt32 Name="Bottom">208</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001001].StyleClass[Shape]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Shape">
+              <UInt16 Name="Offset">2</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.Program.red_east_bool]</Reference>
+            </Group>
+            <Group Name="ColorMap">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[ColorMap_1]</Reference>
+            </Group>
+            <Group Name="ColorMapIndexOffset">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Shape_5" ClsId="0x1001" Version="1" Type="CTRL" RefString="Source[local].Page[Init_Page].Layer[Default].Control[Shape_5]">
+            <UInt32 Name="Left">375</UInt32>
+            <UInt32 Name="Top">191</UInt32>
+            <UInt32 Name="Right">390</UInt32>
+            <UInt32 Name="Bottom">208</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001001].StyleClass[Shape]</Reference>
+            <UInt16 Name="StyleTableSize">9</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Shape">
+              <UInt16 Name="Offset">2</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Shape_6" ClsId="0x1001" Version="1" Type="CTRL" RefString="Source[local].Page[Init_Page].Layer[Default].Control[Shape_6]">
+            <UInt32 Name="Left">403</UInt32>
+            <UInt32 Name="Top">191</UInt32>
+            <UInt32 Name="Right">418</UInt32>
+            <UInt32 Name="Bottom">208</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001001].StyleClass[Shape]</Reference>
+            <UInt16 Name="StyleTableSize">9</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Shape">
+              <UInt16 Name="Offset">2</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Shape_7" ClsId="0x1001" Version="1" Type="CTRL" RefString="Source[local].Page[Init_Page].Layer[Default].Control[Shape_7]">
+            <UInt32 Name="Left">160</UInt32>
+            <UInt32 Name="Top">191</UInt32>
+            <UInt32 Name="Right">175</UInt32>
+            <UInt32 Name="Bottom">208</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001001].StyleClass[Shape]</Reference>
+            <UInt16 Name="StyleTableSize">9</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Shape">
+              <UInt16 Name="Offset">2</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Shape_8" ClsId="0x1001" Version="1" Type="CTRL" RefString="Source[local].Page[Init_Page].Layer[Default].Control[Shape_8]">
+            <UInt32 Name="Left">132</UInt32>
+            <UInt32 Name="Top">191</UInt32>
+            <UInt32 Name="Right">147</UInt32>
+            <UInt32 Name="Bottom">208</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001001].StyleClass[Shape]</Reference>
+            <UInt16 Name="StyleTableSize">9</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Shape">
+              <UInt16 Name="Offset">2</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Shape_9" ClsId="0x1001" Version="1" Type="CTRL" RefString="Source[local].Page[Init_Page].Layer[Default].Control[Shape_9]">
+            <UInt32 Name="Left">105</UInt32>
+            <UInt32 Name="Top">191</UInt32>
+            <UInt32 Name="Right">120</UInt32>
+            <UInt32 Name="Bottom">208</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001001].StyleClass[Shape]</Reference>
+            <UInt16 Name="StyleTableSize">9</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Shape">
+              <UInt16 Name="Offset">2</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Shape_10" ClsId="0x1001" Version="1" Type="CTRL" RefString="Source[local].Page[Init_Page].Layer[Default].Control[Shape_10]">
+            <UInt32 Name="Left">253</UInt32>
+            <UInt32 Name="Top">278</UInt32>
+            <UInt32 Name="Right">268</UInt32>
+            <UInt32 Name="Bottom">295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001001].StyleClass[Shape]</Reference>
+            <UInt16 Name="StyleTableSize">9</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Shape">
+              <UInt16 Name="Offset">2</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Shape_11" ClsId="0x1001" Version="1" Type="CTRL" RefString="Source[local].Page[Init_Page].Layer[Default].Control[Shape_11]">
+            <UInt32 Name="Left">253</UInt32>
+            <UInt32 Name="Top">308</UInt32>
+            <UInt32 Name="Right">268</UInt32>
+            <UInt32 Name="Bottom">325</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001001].StyleClass[Shape]</Reference>
+            <UInt16 Name="StyleTableSize">9</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Shape">
+              <UInt16 Name="Offset">2</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Shape_12" ClsId="0x1001" Version="1" Type="CTRL" RefString="Source[local].Page[Init_Page].Layer[Default].Control[Shape_12]">
+            <UInt32 Name="Left">253</UInt32>
+            <UInt32 Name="Top">341</UInt32>
+            <UInt32 Name="Right">268</UInt32>
+            <UInt32 Name="Bottom">358</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001001].StyleClass[Shape]</Reference>
+            <UInt16 Name="StyleTableSize">9</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Shape">
+              <UInt16 Name="Offset">2</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="Default" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[Init_Page].Layer[Default]">
+          <Reference Name="StatusDP" Type="DP">None</Reference>
+          <UInt32 Name="CtrlCount">12</UInt32>
+          <Reference Name="Shape_1" Type="CTRL">Source[local].Page[Init_Page].Layer[Default].Control[Shape_1]</Reference>
+          <Reference Name="Shape_2" Type="CTRL">Source[local].Page[Init_Page].Layer[Default].Control[Shape_2]</Reference>
+          <Reference Name="Shape_3" Type="CTRL">Source[local].Page[Init_Page].Layer[Default].Control[Shape_3]</Reference>
+          <Reference Name="Shape_4" Type="CTRL">Source[local].Page[Init_Page].Layer[Default].Control[Shape_4]</Reference>
+          <Reference Name="Shape_5" Type="CTRL">Source[local].Page[Init_Page].Layer[Default].Control[Shape_5]</Reference>
+          <Reference Name="Shape_6" Type="CTRL">Source[local].Page[Init_Page].Layer[Default].Control[Shape_6]</Reference>
+          <Reference Name="Shape_7" Type="CTRL">Source[local].Page[Init_Page].Layer[Default].Control[Shape_7]</Reference>
+          <Reference Name="Shape_8" Type="CTRL">Source[local].Page[Init_Page].Layer[Default].Control[Shape_8]</Reference>
+          <Reference Name="Shape_9" Type="CTRL">Source[local].Page[Init_Page].Layer[Default].Control[Shape_9]</Reference>
+          <Reference Name="Shape_10" Type="CTRL">Source[local].Page[Init_Page].Layer[Default].Control[Shape_10]</Reference>
+          <Reference Name="Shape_11" Type="CTRL">Source[local].Page[Init_Page].Layer[Default].Control[Shape_11]</Reference>
+          <Reference Name="Shape_12" Type="CTRL">Source[local].Page[Init_Page].Layer[Default].Control[Shape_12]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Forms">
+    <Folder Name="POBJ">
+      <Object Name="Init_Page" ClsId="0x400" Version="1" TargetIndex="0" Type="PAGE" RefString="Source[local].Page[Init_Page]">
+        <UInt32 Name="FormLanguage">0</UInt32>
+        <Reference Name="StartControl" Type="CTRL">None</Reference>
+        <UInt32 Name="LayerCount">1</UInt32>
+        <UInt32 Name="MoveFocus">1</UInt32>
+        <Group Name="Styleable Properties">
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00000400].StyleClass[default]</Reference>
+          <UInt16 Name="StyleTableSize">4</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Group>
+        <Reference Name="FormLayer0" Type="LAY">Source[local].Page[Init_Page].Layer[Default]</Reference>
+        <Group Name="MovementOrder">
+          <UInt32 Name="Count">0</UInt32>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>
